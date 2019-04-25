@@ -1,0 +1,17 @@
+.sum {
+  display: flex;
+  margin: 2rem;
+}
+#number1 {
+  width: 20%;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+#number2 {
+  width: 20%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.btn {
+  margin-right: 1rem;
+}
