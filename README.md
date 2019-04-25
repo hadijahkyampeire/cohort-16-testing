@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/hadijahkyampeire/cohort-16-testing.svg?branch=master)](https://travis-ci.org/hadijahkyampeire/cohort-16-testing)
+[![Coverage Status](https://coveralls.io/repos/github/hadijahkyampeire/cohort-16-testing/badge.svg?branch=master)](https://coveralls.io/github/hadijahkyampeire/cohort-16-testing?branch=master)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Resteasy snapshot
 ![picture](./image.png)
