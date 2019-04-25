@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add input component renders properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddInputs />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span>
+          Addition:
+        </span>,
+        <input
+          aria-describedby="emailHelp"
+          className="form-control"
+          id="number1"
+          name="number1"
+          onChange={[Function]}
+          placeholder="Enter text"
+          type="number"
+        />,
+        "+",
+        <input
+          aria-describedby="emailHelp"
+          className="form-control"
+          id="number2"
+          name="number2"
+          onChange={[Function]}
+          placeholder="Enter text"
+          type="number"
+        />,
+        <button
+          className="btn btn-success"
+          onClick={[Function]}
+        >
+          Sum
+        </button>,
+        <span>
+          <u>
+            0
+          </u>
+        </span>,
+      ],
+      "className": "sum",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Addition:",
+        },
+        "ref": null,
+        "rendered": "Addition:",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "aria-describedby": "emailHelp",
+          "className": "form-control",
+          "id": "number1",
+          "name": "number1",
+          "onChange": [Function],
+          "placeholder": "Enter text",
+          "type": "number",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      "+",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "aria-describedby": "emailHelp",
+          "className": "form-control",
+          "id": "number2",
+          "name": "number2",
+          "onChange": [Function],
+          "placeholder": "Enter text",
+          "type": "number",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Sum",
+          "className": "btn btn-success",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Sum",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <u>
+            0
+          </u>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": 0,
+          },
+          "ref": null,
+          "rendered": 0,
+          "type": "u",
+        },
+        "type": "span",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span>
+            Addition:
+          </span>,
+          <input
+            aria-describedby="emailHelp"
+            className="form-control"
+            id="number1"
+            name="number1"
+            onChange={[Function]}
+            placeholder="Enter text"
+            type="number"
+          />,
+          "+",
+          <input
+            aria-describedby="emailHelp"
+            className="form-control"
+            id="number2"
+            name="number2"
+            onChange={[Function]}
+            placeholder="Enter text"
+            type="number"
+          />,
+          <button
+            className="btn btn-success"
+            onClick={[Function]}
+          >
+            Sum
+          </button>,
+          <span>
+            <u>
+              0
+            </u>
+          </span>,
+        ],
+        "className": "sum",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Addition:",
+          },
+          "ref": null,
+          "rendered": "Addition:",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-describedby": "emailHelp",
+            "className": "form-control",
+            "id": "number1",
+            "name": "number1",
+            "onChange": [Function],
+            "placeholder": "Enter text",
+            "type": "number",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        "+",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-describedby": "emailHelp",
+            "className": "form-control",
+            "id": "number2",
+            "name": "number2",
+            "onChange": [Function],
+            "placeholder": "Enter text",
+            "type": "number",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Sum",
+            "className": "btn btn-success",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Sum",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <u>
+              0
+            </u>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": 0,
+            },
+            "ref": null,
+            "rendered": 0,
+            "type": "u",
+          },
+          "type": "span",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
